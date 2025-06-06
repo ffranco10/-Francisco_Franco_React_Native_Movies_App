@@ -19,13 +19,13 @@ export default function SearchScreen() {
 
   return (
     <View style={{ flex: 1, backgroundColor: '#fafbfc', padding: 20 }}>
-      {/* Label de campo */}
+      
       <View style={{ flexDirection: 'row', marginBottom: 4 }}>
         <Text style={{ fontWeight: 'bold', fontSize: 16 }}>Search Movie/TV Show Name</Text>
         <Text style={{ fontWeight: 'bold', fontSize: 16, color: '#e05c5c' }}>*</Text>
       </View>
 
-      {/* Input */}
+     
       <TextInput
         placeholder="i.e. James Bond, CSI"
         value={query}

@@ -33,7 +33,7 @@ function AppHeader() {
   );
 }
 
-// Navegación por tabs
+
 function Tabs() {
   return (
     <Tab.Navigator
