@@ -45,20 +45,20 @@ export default function SearchScreen() {
         }}
       />
 
-      {/* Mensaje de error */}
+      
       {hasError && (
         <Text style={{ color: '#e05c5c', fontSize: 14, marginBottom: 10 }}>
           Movie/TV show name is required
         </Text>
       )}
 
-      {/* Label del dropdown */}
+   
       <View style={{ flexDirection: 'row', marginBottom: 4 }}>
         <Text style={{ fontWeight: 'bold', fontSize: 16 }}>Choose Search Type</Text>
         <Text style={{ fontWeight: 'bold', fontSize: 16, color: '#e05c5c' }}>*</Text>
       </View>
 
-      {/* Dropdown + botón alineados */}
+     
       <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 14, gap: 8 }}>
         <View style={{ flex: 1, zIndex: 10 }}>
           <DropDownPicker
@@ -108,7 +108,7 @@ export default function SearchScreen() {
         </TouchableOpacity>
       </View>
 
-      {/* Resultado o mensaje inicial */}
+    
       {submittedQuery.trim() === '' && !hasError ? (
         <Text style={{
           textAlign: 'center',

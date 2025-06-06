@@ -40,7 +40,7 @@ export default function DetailsScreen({ route }) {
           {data.title || data.name}
         </Text>
 
-        {/* Imagen */}
+       
         <Image
           source={{ uri: imgUrl }}
           style={{
@@ -53,7 +53,7 @@ export default function DetailsScreen({ route }) {
           resizeMode="cover"
         />
 
-        {/* Descripción */}
+      
         <Text style={{
           fontSize: 16,
           color: '#333',
@@ -64,7 +64,7 @@ export default function DetailsScreen({ route }) {
           {data.overview}
         </Text>
 
-        {/* Popularidad y fecha */}
+      
         <Text style={{
           fontSize: 14,
           color: '#666',
